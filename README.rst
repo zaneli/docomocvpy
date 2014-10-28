@@ -4,6 +4,9 @@ docomocvpy
 
 `docomo 画像認識 API`_ の Python ラッパーライブラリです。
 
+.. image:: https://api.travis-ci.org/zaneli/docomocvpy.png?branch=master
+   :target: https://travis-ci.org/zaneli/docomocvpy
+
 Requirements
 =======
 

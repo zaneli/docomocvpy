@@ -1,0 +1,11 @@
+language: python
+
+python:
+  - 3.4
+
+script:
+  - python setup.py test
+
+env:
+  global:
+    secure: "FaRzTZxecdhZqgcWadgWHuxaKtcmVFitIOVXxv86N8NwN6k+BBcUvs/0Vs93HqlxlBKI0W2JpHOvSefJvGfu362Al/hnm5WsUe3ai6QX7drhVQD+kJLtCR7DR1QLNXO9CBf3JwEkb23artvfy6WPrXkUe3TiXtXApOZfBCdSWF4="
