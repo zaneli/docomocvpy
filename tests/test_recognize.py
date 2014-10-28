@@ -2,9 +2,9 @@ import os
 import unittest
 from docomocv import DocomoCVClient, Recog
 from requests.exceptions import HTTPError
+from .utils import api_key
 
 
-api_key = os.environ['DOCOMOCVPY_APIKEY']
 dir_name = os.path.abspath(os.path.dirname(__file__))
 
 
