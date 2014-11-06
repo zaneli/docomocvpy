@@ -28,6 +28,6 @@ class TestRecognize(unittest.TestCase):
         self.assertIsInstance(result['recognitionId'], str)
 
     def test_recognize_with_invalid_apikey(self):
-        client = DocomoCVClient('') # invalid api key
+        client = DocomoCVClient('')  # invalid api key
         img_file = os.path.join(dir_name, 'coffee.jpg')
         self.assertRaises(HTTPError, client.recognize, img_file, Recog.food)

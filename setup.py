@@ -13,7 +13,7 @@ setup(
     author_email='shun.otani@gmail.com',
     url='https://github.com/zaneli/docomocvpy',
     install_requires=[
-      'requests'
+        'requests'
     ],
     package_dir={'': 'src'},
     packages=find_packages('src'),

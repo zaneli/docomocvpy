@@ -1,5 +1,5 @@
 import unittest
-from docomocv import DocomoCVClient, Recog
+from docomocv import DocomoCVClient
 from requests.exceptions import HTTPError
 from .utils import api_key
 
@@ -16,5 +16,5 @@ class TestFeedback(unittest.TestCase):
         self.assertIsNone(result)
 
     def test_recognize_with_invalid_apikey(self):
-        client = DocomoCVClient('') # invalid api key
+        client = DocomoCVClient('')  # invalid api key
         self.assertRaises(HTTPError, client.feedback, 'ed626110-5e36-11e4-84c4-065d0f977797', True)
